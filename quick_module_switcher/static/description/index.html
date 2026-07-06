@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Module Switcher for Odoo 17</title>
+</head>
+<body style="margin:0; background:#f6f7f9; color:#263238; font-family:Arial, sans-serif;">
+    <main style="max-width:960px; margin:0 auto; background:#fff;">
+        <img src="banner.png" alt="Quick Module Switcher for Odoo 17"
+             style="display:block; width:100%; height:auto;">
+
+        <section style="padding:40px 48px 24px; text-align:center;">
+            <h1 style="margin:0 0 14px; color:#2f3542; font-size:34px;">Quick Module Switcher</h1>
+            <p style="max-width:720px; margin:0 auto; color:#59636e; font-size:18px; line-height:1.65;">
+                Give every backend user a personal set of application shortcuts in the Odoo systray.
+                Move between Sales, Purchase, Inventory, Accounting, or any accessible application
+                without returning to the application dashboard.
+            </p>
+            <div style="max-width:720px; margin:26px auto 0; padding:10px; border:2px solid #714b67; border-radius:8px; background:#f4f0f3;">
+                <img src="screenshots/quick-switch-highlight.gif"
+                     alt="Animated highlight showing the Quick Module Switcher in the Odoo header"
+                     style="display:block; width:100%; height:auto; border-radius:4px;">
+                <div style="padding:12px 8px 4px; color:#503848; font-weight:700;">
+                    One click from any backend page
+                </div>
+            </div>
+        </section>
+
+        <section style="padding:16px 48px 32px;">
+            <div style="display:flex; flex-wrap:wrap; gap:16px;">
+                <article style="flex:1 1 240px; padding:22px; border:1px solid #dde2e7; border-radius:8px;">
+                    <div style="font-size:26px; color:#714b67;">&#8644;</div>
+                    <h2 style="margin:10px 0 8px; font-size:19px;">Switch from the systray</h2>
+                    <p style="margin:0; color:#66717c; line-height:1.55;">Open the compact switcher from any backend page and jump directly to another application.</p>
+                </article>
+                <article style="flex:1 1 240px; padding:22px; border:1px solid #dde2e7; border-radius:8px;">
+                    <div style="font-size:26px; color:#017e84;">&#9881;</div>
+                    <h2 style="margin:10px 0 8px; font-size:19px;">Configured per user</h2>
+                    <p style="margin:0; color:#66717c; line-height:1.55;">Each user selects their own shortcuts from Preferences. Administrators can also configure user records.</p>
+                </article>
+                <article style="flex:1 1 240px; padding:22px; border:1px solid #dde2e7; border-radius:8px;">
+                    <div style="font-size:26px; color:#e07a3f;">&#10003;</div>
+                    <h2 style="margin:10px 0 8px; font-size:19px;">Respects access rights</h2>
+                    <p style="margin:0; color:#66717c; line-height:1.55;">Only installed applications visible to the current user are returned and displayed.</p>
+                </article>
+            </div>
+        </section>
+
+        <section style="padding:34px 48px; background:#f4f0f3;">
+            <h2 style="margin:0 0 22px; text-align:center; font-size:25px; color:#503848;">How it works</h2>
+            <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:12px; text-align:center;">
+                <div style="flex:1 1 180px; padding:18px; background:#fff; border-radius:6px;"><strong>1. Open Preferences</strong><br><span style="color:#68727c; line-height:1.6;">Use the user menu in the backend systray.</span></div>
+                <div style="flex:1 1 180px; padding:18px; background:#fff; border-radius:6px;"><strong>2. Select applications</strong><br><span style="color:#68727c; line-height:1.6;">Choose entries under Quick Module Switcher.</span></div>
+                <div style="flex:1 1 180px; padding:18px; background:#fff; border-radius:6px;"><strong>3. Save and switch</strong><br><span style="color:#68727c; line-height:1.6;">Use application icons in the systray dropdown.</span></div>
+            </div>
+
+            <figure style="margin:30px 0 0; padding:12px; background:#fff; border:1px solid #ddd6db; border-radius:8px;">
+                <img src="screenshots/configure-shortcuts.png"
+                     alt="Selecting quick switch applications in Odoo user preferences"
+                     style="display:block; width:100%; height:auto; border-radius:4px;">
+                <figcaption style="padding:14px 8px 4px; color:#59636e; text-align:center; line-height:1.5;">
+                    Select the applications for each user under
+                    <strong style="color:#503848;">Preferences &gt; Quick Module Switcher</strong>.
+                </figcaption>
+            </figure>
+
+            <figure style="margin:22px 0 0; padding:12px; background:#fff; border:1px solid #ddd6db; border-radius:8px;">
+                <img src="screenshots/use-header-switcher.png"
+                     alt="Using the Quick Module Switcher from the Odoo backend header"
+                     style="display:block; width:100%; height:auto; border-radius:4px;">
+                <figcaption style="padding:14px 8px 4px; color:#59636e; text-align:center; line-height:1.5;">
+                    Open the switch icon from any backend page and select an application to navigate directly to it.
+                </figcaption>
+            </figure>
+        </section>
+
+        <section style="padding:36px 48px;">
+            <h2 style="margin:0 0 18px; font-size:24px;">Compatibility and installation</h2>
+            <ul style="margin:0; padding-left:22px; color:#59636e; line-height:1.9;">
+                <li>Odoo 17.0 Community and Enterprise editions</li>
+                <li>No third-party Python dependencies</li>
+                <li>Install the module, open Preferences, select applications, and save</li>
+                <li>Application names and icons come from the installed Odoo menus</li>
+            </ul>
+        </section>
+
+        <footer style="padding:24px 48px; background:#2f3542; color:#fff; text-align:center;">
+            <strong>Free and open source</strong>
+            <div style="margin-top:7px; color:#d8dce2;">LGPL-3 | Support: erpmitchellodoo@gmail.com</div>
+        </footer>
+    </main>
+</body>
+</html>

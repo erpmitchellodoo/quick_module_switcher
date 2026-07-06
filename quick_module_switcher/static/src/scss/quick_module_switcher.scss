@@ -1,0 +1,23 @@
+.o_quick_module_switcher {
+    align-items: center;
+
+    .o_quick_module_switcher_toggler {
+        display: flex;
+        align-items: center;
+        min-height: var(--o-navbar-height);
+        color: inherit;
+        font-weight: 500;
+    }
+}
+
+.o_quick_module_switcher_item {
+    min-width: 180px;
+
+    .o_quick_module_switcher_app_icon {
+        width: 24px;
+        height: 24px;
+        flex: 0 0 24px;
+        border-radius: 4px;
+        object-fit: contain;
+    }
+}
