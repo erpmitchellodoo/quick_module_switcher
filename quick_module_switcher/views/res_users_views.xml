@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_users_form_simple_modif_quick_module_switcher" model="ir.ui.view">
+        <field name="name">res.users.preferences.quick.module.switcher</field>
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="base.view_users_form_simple_modif"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group[@name='other_preferences']" position="inside">
+                <field name="quick_switch_menu_ids" widget="many2many_tags"
+                       options="{'no_create': True, 'no_create_edit': True}" readonly="0"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="view_users_form_quick_module_switcher" model="ir.ui.view">
+        <field name="name">res.users.form.quick.module.switcher</field>
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="base.view_users_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//page[@name='preferences']//group[@name='other_preferences']" position="inside">
+                <field name="quick_switch_menu_ids" widget="many2many_tags"
+                       options="{'no_create': True, 'no_create_edit': True}"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>
