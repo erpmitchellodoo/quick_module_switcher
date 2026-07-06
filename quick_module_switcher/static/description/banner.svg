@@ -10,7 +10,6 @@
     </defs>
 
     <rect width="1200" height="500" fill="#f4f0f3"/>
-    <rect width="1200" height="12" fill="#714b67"/>
 
     <g transform="translate(68 73)">
         <rect width="88" height="88" rx="18" fill="#714b67"/>
@@ -31,13 +30,12 @@
         <text x="170" y="27" fill="#fff">Native app icons</text>
     </g>
     <text x="70" y="440" fill="#714b67" font-family="Arial, sans-serif" font-size="19" font-weight="700">FREE  |  LGPL-3  |  COMMUNITY + ENTERPRISE</text>
+    <text x="70" y="474" fill="#59636e" font-family="Arial, sans-serif" font-size="18" font-weight="700">Support: erpmitchellodoo@gmail.com</text>
 
     <rect x="638" y="71" width="524" height="324" rx="18" fill="#ffffff" filter="url(#screen-shadow)"/>
     <image x="650" y="83" width="500" height="300" preserveAspectRatio="xMidYMid slice"
            clip-path="url(#screen-clip)" xlink:href="screenshots/banner-switcher.png"/>
     <circle cx="1027" cy="101" r="25" fill="none" stroke="#ff3b30" stroke-width="5"/>
-    <path d="M1004 72l-18-19" fill="none" stroke="#ff3b30" stroke-width="5" stroke-linecap="round"/>
-    <path d="M982 52l5 16 12-12z" fill="#ff3b30"/>
 
     <rect x="758" y="411" width="294" height="48" rx="6" fill="#2f3542"/>
     <text x="787" y="442" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="700">Switch apps from any page</text>
